@@ -47,7 +47,6 @@ Posts.propTypes = {
  * otomatis jika kita inging menambil state tersebut kita harus 
  * menggunakan state.posts
  */
-
 const mapStateToProps = state => ({
     posts: state.posts.items,
     newPost : state.posts.item

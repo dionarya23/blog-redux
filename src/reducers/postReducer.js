@@ -11,6 +11,11 @@ const initialState = {
     item: {}
 }
 
+/**
+ * pada reducer ini akan mengimport action type yang sudah disiapkan
+ * nah untuk state ini yang nati nya akan dipakai,
+ *  mangka ada kode state=initialState
+ */
 export default function(state = initialState, action) {
     switch(action.type) {
         case FETCH_POST :
