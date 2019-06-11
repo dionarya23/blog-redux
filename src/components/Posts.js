@@ -38,6 +38,16 @@ Posts.propTypes = {
     newPost: PropTypes.object.isRequired
 }
 
+/**
+ * 
+ * arti kode dibawah ini adalah
+ * kita mengambil state.posts
+ * posts berasal dari index.js pada folder reducers
+ * dimana kita mendeklarasi posts: PostReducers
+ * otomatis jika kita inging menambil state tersebut kita harus 
+ * menggunakan state.posts
+ */
+
 const mapStateToProps = state => ({
     posts: state.posts.items,
     newPost : state.posts.item
